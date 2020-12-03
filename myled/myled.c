@@ -4,7 +4,7 @@
 #include <linux/device.h>
 #include <linux/uaccess.h> 
 #include <linux/io.h>
-MODULE_AUTHOR("Tatsuki Saito & Ryuichi Ueda");
+MODULE_AUTHOR("Tatsuki Saito & Ryuichi Ueda & Yusaku Sugiyama");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
