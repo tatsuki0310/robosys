@@ -55,6 +55,8 @@ Tatsuki Saito
 
 ベースとなったプログラムの開発者：Associate Professor : Ryuichi Ueda.
 
+協力 Yusaku Sugiyama
+
 
 # License
 
