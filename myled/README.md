@@ -17,7 +17,9 @@ LEDを2個使用し、入力した数字によって光るLEDを変える。
 
 # circuit
 
-青色のLEDをGPIO24、赤色のLEDをGPIO25
+青色のLEDをGPIO24、赤色のLEDをGPIO25を+に接続し、-をGNDに接続します。
+
+
 # Requirement
 
 Raspberry Pi 4 Model B
