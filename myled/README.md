@@ -35,16 +35,20 @@ LED(2個)
 # Build
 
 リポジトリをクローンし、そのディレクトリでmakeしてください。その後以下の順でコマンドを打ち込んでください。
+```
 
+sudo insmod myled.ko
+```
 
-$ sudo insmod myled.ko
-
+```
 
 $ sudo chmod 666 /dev/myled0
+```
 
+```
 
 $ echo 0 > /dev/myled0
-
+```
 
 echo 0 の0を0～3までの数字に変えて実行してください。
 
