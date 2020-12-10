@@ -7,7 +7,7 @@ LED_systemdriver
 
 ロボットシステム学の講義で作成したデバイスドライバに変更を加えて以下のように動作するようにしました。
 
-・LEDを2個使用し、入力した数字によって光るLEDを変える。
+LEDを2個使用し、入力した数字によって光るLEDを変える。
 
 
 # Demo
@@ -15,6 +15,9 @@ LED_systemdriver
 実演動画はこちらのURLからご覧下さい。https://youtu.be/2MLjiUqOI6c
 
 
+# circuit
+
+青色のLEDをGPIO24、赤色のLEDをGPIO25
 # Requirement
 
 Raspberry Pi 4 Model B
@@ -33,15 +36,15 @@ LED(2個)
 リポジトリをクローンし、そのディレクトリでmakeしてください。その後以下の順でコマンドを打ち込んでください。
 
 ```
-sudo insmod myled.ko
+$ sudo insmod myled.ko
 ```
 
 ```
-sudo chmod 666 /dev/myled0
+$ sudo chmod 666 /dev/myled0
 ```
 
 ```
-echo 0 > /dev/myled0
+& echo 0 > /dev/myled0
 ```
 
 echo 0 の0を0～3までの数字に変えて実行してください。
