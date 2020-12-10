@@ -13,7 +13,7 @@ LED_systemdriver
 # Demo
 
 
-実演動画はこちらのURからご覧下さい。https://youtu.be/2MLjiUqOI6c
+実演動画はこちらのURLからご覧下さい。https://youtu.be/2MLjiUqOI6c
 
 
 # Requirement
@@ -42,12 +42,12 @@ sudo insmod myled.ko
 
 ```
 
-$ sudo chmod 666 /dev/myled0
+sudo chmod 666 /dev/myled0
 ```
 
 ```
 
-$ echo 0 > /dev/myled0
+echo 0 > /dev/myled0
 ```
 
 echo 0 の0を0～3までの数字に変えて実行してください。
